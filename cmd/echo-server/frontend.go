@@ -11,6 +11,7 @@ var websocketHTML = `
          font-weight: bold;
          line-height: 1.5em;
          border-top: 1px dashed lightgray;
+         background: green;
     }
 
     #console div {

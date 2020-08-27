@@ -34,7 +34,7 @@ docker run -p 8080:8080 echo:latest --rm
 
 or with environment variables:
 ```
-docker run -e SERVER_NAME=[NAME] -e LOG_HTTP_BODY=true [-e etc...] -p 8080:8080 echo:latest --rm
+docker run -e IDENTIFIER=[ID] -e LOG_HTTP_BODY=true [-e etc...] -p 8080:8080 echo:latest --rm
 ```
 
 You can hit the application in a browser at `http://0.0.0.0:8080/.ws` (provided you didn't change the default port).
